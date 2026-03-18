@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEON-VIBE | Pure Performance</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;600;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Fixed Background Parallax -->
+    <div class="bg-overlay"></div>
+
+    <nav class="glass-nav">
+        <div class="logo">
+        <!-- SD FITNESS HUB LOGO -->
+<svg width="220" height="50" viewBox="0 0 220 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Icon Mark: Stylized SD -->
+  <path d="M10 12C10 10.8954 10.8954 10 12 10H35V18H18V22H35V38C35 39.1046 34.1046 40 33 40H10V32H27V28H10V12Z" fill="#CCFF00"/>
+  <path d="M40 10H58C64.6274 10 70 15.3726 70 22V28C70 34.6274 64.6274 40 58 40H40V10ZM48 18V32H58C60.2091 32 62 30.2091 62 28V22C62 19.7909 60.2091 18 58 18H48Z" fill="white"/>
+  
+  <!-- Text Part -->
+  <text x="80" y="32" font-family="Outfit, sans-serif" font-weight="900" font-size="18" fill="white" letter-spacing="1">
+    FITNESS <tspan fill="#CCFF00">HUB</tspan>
+  </text>
+  
+  <!-- Decorative Accent Line -->
+  <rect x="80" y="38" width="120" height="2" fill="#CCFF00" fill-opacity="0.3"/>
+</svg></div>
+        <ul class="links">
+            <li><a href="#about">Philosophy</a></li>
+            <li><a href="#bento">The Space</a></li>
+            <li><a href="#membership">Join</a></li>
+        </ul>
+        <button class="cta-pill">Book Trial</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1 class="reveal">RADICAL<br><span class="neon-text">RESULTS</span></h1>
+            <p>No distractions. Just high-performance equipment and elite coaching.</p>
+        </div>
+        <div class="hero-main-img">
+            <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=1000" alt="Gym Interior">
+        </div>
+    </section>
+
+    <!-- Scrolling Photo Marquee -->
+    <div class="marquee">
+        <div class="marquee-content">
+            <img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?q=80&w=500" alt="Training 1">
+            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=500" alt="Training 2">
+            <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?q=80&w=500" alt="Training 3">
+            <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?q=80&w=500" alt="Training 4">
+            <img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?q=80&w=500" alt="Training 1">
+            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=500" alt="Training 2">
+        </div>
+    </div>
+
+    <!-- Rebalanced Bento Grid (All Image-Based) -->
+    <section id="bento" class="bento-container">
+        
+        <!-- Item 1: Strength Lab (Tall - Left) -->
+        <div class="bento-item img-item tall" style="background-image: url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1000');">
+            <div class="overlay">
+                <div class="content">
+                    <span class="tag">Zone 01</span>
+                    <h3>Strength Lab</h3>
+                    <p>Olympic plates and custom racks for serious lifters.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Item 2: Elite Coaching (Top Right) -->
+        <div class="bento-item img-item" style="background-image: url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=1000');">
+            <div class="overlay">
+                <div class="content">
+                    <span class="tag-neon">Exclusive</span>
+                    <h3>Elite Coaching</h3>
+                    <p>Personalized biomechanical programming.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Item 3: HIIT Studio (Bottom Right - Wide) -->
+        <div class="bento-item img-item wide" style="background-image: url('https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=1000');">
+            <div class="overlay">
+                <div class="content">
+                    <span class="tag">Zone 02</span>
+                    <h3>HIIT Studio</h3>
+                    <p>High-octane group sessions to incinerate calories.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="membership" class="pricing">
+        <h2 class="section-title">THE MEMBERSHIP</h2>
+        <div class="price-grid">
+            <div class="card glass">
+                <h4>BASE CLUB</h4>
+                <div class="price">$55<small>/mo</small></div>
+                <button class="card-btn-outline">Explore</button>
+            </div>
+            <div class="card active">
+                <div class="popular">MOST CHOSEN</div>
+                <h4>FULL ACCESS</h4>
+                <div class="price">$95<small>/mo</small></div>
+                <button class="card-btn">Get Started</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
